@@ -26,5 +26,12 @@ Install the module by uploading or copying the path of the link and installing l
 <b>Enable Service and the REST server.</b><br><br>
 <b>Add a Service</b><br><img src="http://tylerfrankenstein.com/sites/default/files/styles/large/public/services-add.png?itok=-GyCkC_l"><br>
 <b>Setup Service Resources</b><br><img src="http://tylerfrankenstein.com/sites/default/files/styles/large/public/services-resources.png?itok=96Dl-y4g"><br>
+The resources you'll need to enable are:<br>
+node -> retrieve,create,update,delete<br>
+system -> connect<br>
+user -> login,logout<br>
+
+
+
 </html>
 
