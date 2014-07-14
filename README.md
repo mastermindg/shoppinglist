@@ -34,7 +34,7 @@ user -> login,logout<br><br>
 
 Switch to the 'Server' tab and make sure the following are enabled:<br><br>
 Response formatters<br>
-json<Br>
+json<Br><br>
 Request parsing<br>
 application/json<Br>
 application/x-www-form-urlencoded<Br>
