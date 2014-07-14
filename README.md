@@ -38,7 +38,12 @@ json<Br><br>
 <b>Request parsing</b><br>
 application/json<Br>
 application/x-www-form-urlencoded<Br><br>
-Feel free to test your webservice using <a href="http://tylerfrankenstein.com/code/android-app-with-drupal-7-services-phonegap-and-jquery-mobile">Tyler Frankenstein's tutorial</a><br>
+Feel free to test your webservice using <a href="http://tylerfrankenstein.com/code/android-app-with-drupal-7-services-phonegap-and-jquery-mobile">Tyler Frankenstein's tutorial</a><br><br>
+<h3> Step 4: Create EAN account and enable data feed</h3>
+This app uses EANData to pull product data from a UPC. Create an account with EAN here:<br><br>
+<a href="http://eandata.com/">EANData</a><br>
+Activate Data feeds here:<br>
+<a href="http://eandata.com/feed">EANData Data Feed Activate</a><br>
 
 
 </html>
