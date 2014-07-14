@@ -19,7 +19,7 @@ git reset --hard origin/master
 
 <h3> Step 3: Setup Drupal 7 for authentication</h3>
 These instructions are a condensed version of Tyler Frankensteins tutorial on integrating Drupal with PhoneGap. <br>
-<a href="http://tylerfrankenstein.com/code/android-app-with-drupal-7-services-phonegap-and-jquery-mobile">Drupal & PhoneGap - Mobile Application with Drupal 7 Services, PhoneGap & JQuery Mobile for Android - Example</a><br>
+<a href="http://tylerfrankenstein.com/code/android-app-with-drupal-7-services-phonegap-and-jquery-mobile">Drupal & PhoneGap - Mobile Application with Drupal 7 Services, PhoneGap & JQuery Mobile for Android - Example</a><br><br>
 This configuration is using an older version of the Drupal <a href="https://www.drupal.org/project/services">Services</a> module - 7.x.3.2<br>
 <a href="http://ftp.drupal.org/files/projects/services-7.x-3.2.zip">Download Services 7.x.3.2 here</a><br>
 Install the module by uploading or copying the path of the link and installing locally via Update Manager.<br>
