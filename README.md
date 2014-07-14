@@ -29,8 +29,16 @@ Install the module by uploading or copying the path of the link and installing l
 The resources you'll need to enable are:<br>
 node -> retrieve,create,update,delete<br>
 system -> connect<br>
-user -> login,logout<br>
+user -> login,logout<br><br>
+<b>Enable REST Server Response Formatters & Request Parsing<b><br>
 
+Switch to the 'Server' tab and make sure the following are enabled:<br><br>
+
+Response formatters<br>
+json<Br>
+Request parsing<br>
+application/json<Br>
+application/x-www-form-urlencoded<Br>
 
 
 </html>
