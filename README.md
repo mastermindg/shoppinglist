@@ -23,8 +23,8 @@ These instructions are a condensed version of Tyler Frankensteins tutorial on in
 This configuration is using an older version of the Drupal <a href="https://www.drupal.org/project/services">Services</a> module - 7.x.3.2<br>
 <a href="http://ftp.drupal.org/files/projects/services-7.x-3.2.zip">Download Services 7.x.3.2 here</a><br><br>
 Install the module by uploading or copying the path of the link and installing locally via Update Manager.<br><br>
-<b>Enable Service and the REST server.</b><br>
-Add a Service<br><img src="http://tylerfrankenstein.com/sites/default/files/styles/large/public/services-add.png?itok=-GyCkC_l"><br>
-Setup Service Resources<br><img src="http://tylerfrankenstein.com/sites/default/files/styles/large/public/services-resources.png?itok=96Dl-y4g"><br>
+<b>Enable Service and the REST server.</b><br><br>
+<b>Add a Service</b><br><img src="http://tylerfrankenstein.com/sites/default/files/styles/large/public/services-add.png?itok=-GyCkC_l"><br>
+<b>Setup Service Resources</b><br><img src="http://tylerfrankenstein.com/sites/default/files/styles/large/public/services-resources.png?itok=96Dl-y4g"><br>
 </html>
 
