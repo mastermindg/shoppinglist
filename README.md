@@ -13,7 +13,11 @@ cordova plugins add https://github.com/wildabeast/BarcodeScanner.git<br>
 This will create the default folders/files that you'll need to get started.<br>
 
 
-<h3> Step 2: Pull this repo into www</h3>
+<h3> Step 2: Pull this repo into the newly created myApp folder</h3>
+git fetch --all
+git reset --hard origin/master
+
+<h3> Step 3: Setup Drupal for authentication</h3>
 
 
 </html>
