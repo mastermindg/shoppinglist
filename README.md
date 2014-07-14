@@ -33,9 +33,9 @@ user -> login,logout<br><br>
 <b>Enable REST Server Response Formatters & Request Parsing<b><br>
 
 Switch to the 'Server' tab and make sure the following are enabled:<br><br>
-Response formatters<br>
+<b>Response formatters</b><br>
 json<Br><br>
-Request parsing<br>
+<b>Request parsing</b><br>
 application/json<Br>
 application/x-www-form-urlencoded<Br>
 
