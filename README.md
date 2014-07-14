@@ -33,7 +33,6 @@ user -> login,logout<br><br>
 <b>Enable REST Server Response Formatters & Request Parsing<b><br>
 
 Switch to the 'Server' tab and make sure the following are enabled:<br><br>
-
 Response formatters<br>
 json<Br>
 Request parsing<br>
