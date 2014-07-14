@@ -19,7 +19,8 @@ git reset --hard origin/master
 
 <h3> Step 3: Setup Drupal for authentication</h3>
 This configuration is using an older version of the Drupal <a href="https://www.drupal.org/project/services">Services</a> module - 7.x.3.2<br>
-<a href="http://ftp.drupal.org/files/projects/services-7.x-3.2.zip">Download here</a><br>
+<a href="http://ftp.drupal.org/files/projects/services-7.x-3.2.zip">Download Services 7.x.3.2 here</a><br>
+Install the module by uploading or copying the path of the link and installingn locally via Update Manager.<br>
 
 
 </html>
