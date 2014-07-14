@@ -37,7 +37,8 @@ Switch to the 'Server' tab and make sure the following are enabled:<br><br>
 json<Br><br>
 <b>Request parsing</b><br>
 application/json<Br>
-application/x-www-form-urlencoded<Br>
+application/x-www-form-urlencoded<Br><br>
+Feel free to test your webservice using <a href="http://tylerfrankenstein.com/code/android-app-with-drupal-7-services-phonegap-and-jquery-mobile">Tyler Frankenstein's tutorial</a><br>
 
 
 </html>
