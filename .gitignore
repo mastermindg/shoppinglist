@@ -1,0 +1,6 @@
+# Ignore platform directory
+platforms
+merges
+plugins
+.cordova
+www/settings.js

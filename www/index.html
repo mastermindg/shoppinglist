@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Hello World</title>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    	<link rel="stylesheet" href="css/jquery.mobile-1.0.css" />
+	<script src="js/jquery.mobile-1.0.js"></script>
+	<script src="settings.js"></script>
+    </head>
+
+    <body>
+<div data-role="page" id="page_dashboard"><!-- page -->
+ <script type="text/javascript" charset="utf-8" src="scripts/dashboard.js"></script>
+ <div data-role="header">
+   <h1>Dashboard</h1>
+ </div>
+ <div data-role="content">
+   <p><a href="#page_login" data-role="button" id="button_login">Login</a></p>
+   <p><a href="#" data-role="button" id="button_logout">Logout</a></p>
+   <p><a href="#page_scan" data-role="button" id="button_scan">Scan</a></p>
+   <p><a href="#service_test" data-role="button" id="button_test">Test</a></p>
+ </div>
+</div>
+
+<div data-role="page" id="page_login"><!-- page -->
+  <script type="text/javascript" charset="utf-8" src="scripts/login.js"></script>
+  <div data-role="header">
+    <h1>Login</h1>
+  </div>
+  <div data-role="content" class='content'>
+    <div>
+      <label for="page_login_name">Username</label>
+      <input type="text" id="page_login_name" />
+    </div>
+    <div>
+      <label for="page_login_pass">Password</label>
+      <input type="password" id="page_login_pass" />
+    </div>
+    <fieldset>
+      <div><button type="button" data-theme="b" id="page_login_submit">Login</button></div>
+    </fieldset>
+  </div>
+</div>
+
+
+<div data-role="page" id="page_scan"><!-- page -->
+  <script type="text/javascript" charset="utf-8" src="scripts/scan.js"></script>
+  <div data-role="header">
+    <h1>Scan</h1>
+  </div>
+    <p>
+    <button id="startScan">Start Scan</button>
+    </p>
+  <div id="results"></div>
+ <script type="text/javascript" src="cordova.js"></script>
+</div>
+
+
+<div data-role="page" id="service_test"><!-- page -->
+<script type="text/javascript" charset="utf-8" src="scripts/test.js"></script>
+<h1>Webservice Test</h1>
+<div id="targetDiv"></div>
+</div>
+
+    </body>
+</html>
