@@ -45,6 +45,7 @@ This app uses EANData to pull product data from a UPC. <br><br>Create an account
 Activate Data feeds here:<br>
 <a href="http://eandata.com/feed">EANData Data Feed Activate</a><br><br>
 <h3> Step 5: Fill in the Settings.js file</h3>
+ <b>TTHIS FILE WILL NEED TO BE CREATED AS IT IS NOT STORED IN THIS REPOSITORY - FOR SECURITY REASONS.</b><br>
 Application settings are stored in www/settings.js.<br>
 Here you'll need to enter your Drupal 7 webiste address (the root of the site, i.e. http://example.com/drupal)<br>
 You'll also need to enter your EANData keycode which is used for querying the barcodes.<br>
