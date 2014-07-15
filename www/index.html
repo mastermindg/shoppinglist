@@ -11,22 +11,19 @@
     <body>
 <div data-role="page" id="page_dashboard"><!-- page -->
  <script type="text/javascript" charset="utf-8" src="scripts/dashboard.js"></script>
- <div data-role="header">
-   <h1>Dashboard</h1>
- </div>
+ <div data-role="header"><h1>Dashboard</h1></div>
  <div data-role="content">
+   <h2>Shopping List App</h2>
    <p><a href="#page_login" data-role="button" id="button_login">Login</a></p>
    <p><a href="#" data-role="button" id="button_logout">Logout</a></p>
-   <p><a href="#page_scan" data-role="button" id="button_scan">Scan</a></p>
+   <p><a href="#create_shopping_list" data-role="button" id="button_create">Create a Shopping List</a></p>
    <p><a href="#service_test" data-role="button" id="button_test">Test</a></p>
  </div>
 </div>
 
 <div data-role="page" id="page_login"><!-- page -->
   <script type="text/javascript" charset="utf-8" src="scripts/login.js"></script>
-  <div data-role="header">
-    <h1>Login</h1>
-  </div>
+  <div data-role="header"><h1>Login</h1></div>
   <div data-role="content" class='content'>
     <div>
       <label for="page_login_name">Username</label>
@@ -42,25 +39,36 @@
   </div>
 </div>
 
+<div data-role="page" id="service_test"><!-- page -->
+<script type="text/javascript" charset="utf-8" src="scripts/test.js"></script>
+<div data-role="header"><h1>Webservice Test</h1></div>
+<div id="targetDiv"></div>
+</div>
 
-<div data-role="page" id="page_scan"><!-- page -->
-  <script type="text/javascript" charset="utf-8" src="scripts/scan.js"></script>
-  <div data-role="header">
-    <h1>Scan</h1>
+<div data-role="page" id="create_shopping_list"><!-- page -->
+<script type="text/javascript" charset="utf-8" src="scripts/scan.js"></script>
+<div data-role="header"><h1>Shopping List</h1></div>
+<div data-role="content" class='content'>
+    <div>
+      <label for="page_node_name">Title</label>
+      <input type="text" id="page_node_name" />
+    </div>
+    <div>
+      <label for="page_node_barcode">Barcode</label>
+      <textarea id="page_node_barcode"></textarea>
+    </div>
+    <fieldset>
+      <div><button type="button" data-theme="a" id="startScan">Scan a Barcode</button></div>
+    </fieldset>
+    <fieldset>
+      <div><button type="button" data-theme="b" id="page_node_create_submit">Submit</button></div>
+    </fieldset>
   </div>
-    <p>
-    <button id="startScan">Start Scan</button>
-    </p>
   <div id="results"></div>
  <script type="text/javascript" src="cordova.js"></script>
 </div>
 
 
-<div data-role="page" id="service_test"><!-- page -->
-<script type="text/javascript" charset="utf-8" src="scripts/test.js"></script>
-<h1>Webservice Test</h1>
-<div id="targetDiv"></div>
-</div>
 
     </body>
 </html>

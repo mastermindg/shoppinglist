@@ -3,7 +3,7 @@ var resultDiv;
 document.addEventListener("deviceready", init, false);
 function init() {
 	document.querySelector("#startScan").addEventListener("touchend", startScan, false);
-	resultDiv = document.querySelector("#results");
+	resultText = document.querySelector("#page_node_barcode");
 }
 
 function startScan() {
@@ -14,7 +14,11 @@ function startScan() {
 			//	alert('Test');
 			//	resultDiv.innerHTML = "Cancelled";
 			//} else {
-				resultDiv.innerHTML = processBarcode(result.text);
+				resultText.value= result.text;
+				//$("textarea#ExampleMessage").html(result.exampleMessage)				
+				//resultDiv.val(result.text);
+				//("page_node_barcode").val(result.text);
+				//resultDiv.innerHTML = processBarcode(result.text);
 			//}
 		}, 
 		function (error) {

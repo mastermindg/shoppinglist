@@ -17,12 +17,12 @@ $('#page_dashboard').live('pageshow',function(){
         if (drupal_user.uid == 0) { // user is not logged in, show the login button, hide the logout button
           $('#button_login').show();
           $('#button_logout').hide();
-	  $('#button_scan').hide();
+	  $('#button_create').hide();
         }
         else { // user is logged in, hide the login button, show the logout button
           $('#button_login').hide();
           $('#button_logout').show();
-	  $('#button_scan').show();
+	  $('#button_create').show();
         }
       }
     });
